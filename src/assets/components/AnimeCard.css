@@ -1,0 +1,35 @@
+.card-container{
+    position: relative;
+    left: 50px;
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin-top: 10px;
+    background-color: rgb(145, 143, 143);
+    border-radius: 50px;
+    padding-bottom: 10px;
+   
+}
+
+.titulo {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.cardImage{
+    display: flex;
+    flex-direction: column;
+}
+
+.cardImage img{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    align-content: center;
+    left: 65px;
+    border-radius: 10px;
+}
